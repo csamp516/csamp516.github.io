@@ -1,0 +1,40 @@
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<div class="container">
+	<div class="row"> 
+		<div class="col-md-4">
+			<div><img src='https://img.youtube.com/vi/${"Video URL"}/hqdefault.jpg' width='200px'/></div>
+			
+			<p>
+				<span data-visible='${"Video URL"}'><a target="_blank" href="${"Video URL"}">Video 1</a></span>
+				<span data-visible='${"Video URL 2"}'> | <a target="_blank" href="${"Video URL 2"}">Video 2</a></span>
+				<span data-visible='${"Video URL 3"}'> | <a target="_blank" href="${"Video URL 3"}">Video 3</a></span>
+				<span data-visible='${"Video URL 4"}'> | <a target="_blank" href="${"Video URL 2"}">Video 4</a></span>
+				<span data-visible='${"Video URL 5"}'> | <a target="_blank" href="${"Video URL 3"}">Video 5</a></span>
+			</p>
+		</div>
+
+		<div class="col-md-4">
+		<strong><a href="mailto:${"Username"}">${"Username"}</a></strong>
+		<ul>
+			<li data-visible='${"Name of user test subject"}'>Pilot: ${"Name of user test subject"}</li>
+			<li data-visible='${"Date of Test"}'>Flight Date: ${"Date of Test"}</li>
+			<li data-visible='${"Timestamp"}'>Submitted: ${"Timestamp"}</li>
+			<li data-visible='${"Solo Version"}'>Solo Version: ${"Solo Version"}</li>
+			<li data-visible='${"App Version"}'>App Version: ${"App Version"}</li>
+		</ul>
+		</div>
+		<div class="col-md-4">
+			<p class="customer-ready">Customer Ready? <span class="indicator" data-customer-ready="${"Was this a customer-ready experience?"}"></span></p>
+			<p>
+				<span data-visible='${"Jira issue 1"}'><a target="_blank" href="${"Jira issue 1"}">Jira 1</a></span>
+				<span data-visible='${"Jira issue 2"}'> | <a target="_blank" href="${"Jira issue 2"}">Jira 2</a></span>
+				<span data-visible='${"Jira issue 3"}'> | <a target="_blank" href="${"Jira issue 3"}">Jira 3</a></span>
+				<span data-visible='${"Jira issue 4"}'> | <a target="_blank" href="${"Jira issue 2"}">Jira 4</a></span>
+				<span data-visible='${"Jira issue 5"}'> | <a target="_blank" href="${"Jira issue 3"}">Jira 5</a></span>
+			</p>
+			<p data-visible='${"Logs Google Drive Directory"}'><a target="_blank" href='${"Logs Google Drive Directory"}'></a></p>
+			<p><strong>TLDR:</strong>${"Notes TL;DR"}</p>
+		</div>
+	</div>
+</div>
