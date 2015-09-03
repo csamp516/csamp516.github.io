@@ -21,12 +21,13 @@
 	font-family: "Open Sans", sans-serif !important;
 }
 .indicator {
-	width: 18px;
-	height: 18px;
+	width: 20px;
+	height: 20px;
 	border-radius: 18px;
 	background: #eee;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
+	margin-bottom: 5px !important;
 }
 .indicator[data-customer-ready~="Yes"] {
 	background: #99db93;
@@ -66,7 +67,14 @@ ul {
 .google-visualization-table-tr-sel, .google-visualization-table-tr-sel, .google-visualization-table-tr-even, .google-visualization-table-tr-odd {
 	background: #fff !important;
 }
-iframe {
-	border: none;
-	padding-bottom: 15px;
+.customer-ready {
+	font-size: 120%;	
+}
+.card-content {
+	padding: 45px 15px 35px 15px !important;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.2) !important;
+}
+.card-content:hover {
+	box-shadow: 2px 2px 8px rgba(0,0,0,.2) !important;
+	
 }
