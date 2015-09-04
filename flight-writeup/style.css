@@ -44,9 +44,6 @@
 ul, li {
 	list-style: none
 }
-ul {
-	margin-left: -40px !important;
-}
 [data-visible=""] {
 	display: none;
 }
