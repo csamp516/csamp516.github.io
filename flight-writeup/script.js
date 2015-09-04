@@ -25,7 +25,7 @@
 				}
 			}
 			
-			var placeholder = $('<div>').addClass('placeholder').html("<span class='glyphicon glyphicon-warning-sign'></span><br/ >Video Not Found");
+			var placeholder = $('<div>').addClass('placeholder').html("Video Not Found");
 			$('.video_embed').each(function () {
 				console.log('hi');
 			
