@@ -81,3 +81,11 @@ ul {
 .charts-menu-button {
 	background: #eee !important;
 }
+.placeholder {
+		width: 250px;
+		height: 100px;
+		min-width: 250px;
+		background: #eee;
+		text-align: center;
+		padding-top: 70px;
+}

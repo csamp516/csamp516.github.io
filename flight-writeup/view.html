@@ -1,12 +1,10 @@
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <div class="container">
 	<div class="row"> 
 		<div class="col-md-4">
-			<div><img src='https://img.youtube.com/vi/${"Video URL"}/hqdefault.jpg' width='200px'/></div>
+			<div class="video_embed" data-url='${"Video URL"}'></div>
 			
 			<p>
-				<span data-visible='${"Video URL"}'><a target="_blank" href="${"Video URL"}">Video 1</a></span>
+				<span data-visible='${"Video URL"}'><a class="video" target="_blank" href="${"Video URL"}">Video 1</a></span>
 				<span data-visible='${"Video URL 2"}'> | <a target="_blank" href="${"Video URL 2"}">Video 2</a></span>
 				<span data-visible='${"Video URL 3"}'> | <a target="_blank" href="${"Video URL 3"}">Video 3</a></span>
 				<span data-visible='${"Video URL 4"}'> | <a target="_blank" href="${"Video URL 2"}">Video 4</a></span>
