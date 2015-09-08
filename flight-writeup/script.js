@@ -1,7 +1,7 @@
 (function () {
 	function init() {
 		$(function() {
-			var iframe_width = 250,
+			var iframe_width = '220px',
 				iframe_height = '';
 			function convertYouTubeUrl(url) {
 			
@@ -25,18 +25,22 @@
 				}
 			}
 			
-			var placeholder = $('<div>').addClass('placeholder').html("Video Not Found");
-			$('.video_embed').each(function () {
-				console.log('hi');
 			
+			$('.video_embed').each(function () {
 				var iframe = false;
 				var href=$(this).data('url');
 				if(iframe = convertYouTubeUrl(href)) {
+			
 					$(this).html(iframe);
 				} else if(iframe=convertGoogleUrl(href)) {
 					$(this).html(iframe);
 				} else {
-					$(this).html(placeholder);
+					console.log(href);
+					if(href="") {
+						$(this).addClass("placeholder").html("No Video Provided");
+					} else {					
+						$(this).addClass("placeholder").html("Video Not Found");
+					}
 				};
 			});
 		});
