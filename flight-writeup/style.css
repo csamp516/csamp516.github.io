@@ -29,7 +29,7 @@
 	vertical-align: middle;
 	margin-bottom: 5px !important;
 }
-.indicator[data-customer-ready~="Yes"] {
+.indicator[data-customer-ready~="Yes,"] {
 	background: #99db93;
 }
 .indicator[data-customer-ready~="iffy"] {
