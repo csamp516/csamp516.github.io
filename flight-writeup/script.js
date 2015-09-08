@@ -35,7 +35,7 @@
 				} else if(iframe=convertGoogleUrl(href)) {
 					$(this).html(iframe);
 				} else {
-					console.log(href);
+				
 					if(href="") {
 						$(this).addClass("placeholder").html("No Video Provided");
 					} else {					
