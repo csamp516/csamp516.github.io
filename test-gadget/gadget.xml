@@ -3,14 +3,5 @@
   <ModulePrefs title="Hello World!">
     <Require feature="opensocial-0.8" />
   </ModulePrefs>
-  <Content type="html" view="home">
-    <![CDATA[
-      Hello, small world!
-    ]]>
-  </Content>
-  <Content type="html" view="canvas">
-    <![CDATA[
-      Hello, big world!
-    ]]>
-  </Content>
+  <Content type="url" href="http://localhost:8888/lift-wp" />
 </Module>
