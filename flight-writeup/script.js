@@ -3,9 +3,8 @@ var embed_videos=false;
 (function () {
 	function init() {
 		$(function() {
-		
-			var iframe_width = '220px',
-				iframe_height = '';
+			var iframe_width = '',
+				iframe_height = "250px";
 			function convertYouTubeUrl(url) {
 			
 				var regEx = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
@@ -61,6 +60,7 @@ var embed_videos=false;
 						} else {					
 							$(this).addClass("placeholder").html("Video Not Found");
 						}
+						$(this).css({height:iframe_height, width:iframe_width});
 					};
 				});
 			};
