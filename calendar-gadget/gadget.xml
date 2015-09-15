@@ -5,12 +5,12 @@
   </ModulePrefs>
   <Content type="html">
   	<![CDATA[
-  		<style>
+  		
+  		<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=3drobotics.com_3q6j8tk8q9i5cvk4npecsb3q40%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"><style>
   			.date-label {
   				color: red !important;
   			}
-  		</style>
-  		<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=3drobotics.com_3q6j8tk8q9i5cvk4npecsb3q40%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  		</style></iframe>
   	]]>
   </Content>
    
