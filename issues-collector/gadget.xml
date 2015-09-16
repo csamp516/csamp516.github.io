@@ -6,14 +6,18 @@
   <Content type="html">
   	<![CDATA[
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  		// Requires jQuery!
-		jQuery.ajax({
-					url: "https://3drsolo.atlassian.net/s/3845fc595530bfaf777d54746ec767ee-T/en_US-7r33ap/70102/5e738e81e289a0c5932e3c9bc1c93ab5/2.0.7/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=994373fe",
-				type: "get",
-			cache: true,
-			dataType: "script"
-		});
-
+		<script>
+			$(function() { 
+				// Requires jQuery!
+				jQuery.ajax({
+							url: "https://3drsolo.atlassian.net/s/3845fc595530bfaf777d54746ec767ee-T/en_US-7r33ap/70102/5e738e81e289a0c5932e3c9bc1c93ab5/2.0.7/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=994373fe",
+						type: "get",
+					cache: true,
+					dataType: "script"
+				});
+			});
+  		
+		</script>
   	]]>
   </Content>
    
