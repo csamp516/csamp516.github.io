@@ -8,6 +8,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   		<script> 
   			$(function(){ 
+  				console.log("Hi.");
 				;
 /* module-key = 'com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector', location = '/js/jquery/jquery-1.7.1.js' */
 /*!
