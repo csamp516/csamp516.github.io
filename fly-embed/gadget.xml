@@ -3,5 +3,5 @@
   <ModulePrefs title="Hello World!">
     <Require feature="opensocial-0.8" />
   </ModulePrefs>
-  <Content type="url" href="https://fly.3dr.com/?em_embed=posts" />
+  <Content type="url" href="https://fly.3dr.com/?em_embed=posts&em_domain=https%3A%2F%2Fsites.google.com%2Fa%2F3drobotics.com%2Flift-dev%2Fblog" />
 </Module>
