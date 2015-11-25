@@ -43,11 +43,42 @@ function requestFullScreen() {
 	else {
 		RunPrefixMethod(document.getElementById('calendars'), "RequestFullScreen");
 	}
+	$(window).trigger('resize');
 }
-
+var calendars;
 $(function() {
 	$('.loading-indicator').show();
+	
+	$('.clock').FlipClock({
+		//clockFace: 'TwelveHourClock'
+	});
+	
+	calendars = {
+		"West" : {
+			"Pitch":"3drobotics.com_3238373533303331393132@resource.calendar.google.com",
+			"Roll":"3drobotics.com_39303332353534322d313736@resource.calendar.google.com"
+		},
+		"North East" : {
+			'Vector': '3drobotics.com_2d3539313539363532333632@resource.calendar.google.com',
+			'Over': '3drobotics.com_2d3139313635373038363537@resource.calendar.google.com',
+			'Roger': '3drobotics.com_2d3830313535373233323434@resource.calendar.google.com',
+			'Cygnus': '3drobotics.com_39333539363633332d353237@resource.calendar.google.com',
+			
+		},
+		"South East": {
+			'Fly': '3drobotics.com_3231393733333739373530@resource.calendar.google.com',
+			"Loiter": "3drobotics.com_2d363437313531332d393937@resource.calendar.google.com",
+			"Drift": "3drobotics.com_3238393535333839383832@resource.calendar.google.com",
+			"Sport": "3drobotics.com_3636303334363836393739@resource.calendar.google.com",
+			"Acro": "3drobotics.com_2d3530393130323832353234@resource.calendar.google.com"
+		}
+	};
+	for(i in calendars) {
+		$('.area').append($('<option>').text(i));
+	}
+	$('.area').change(loadCalendarApi);
 	$('.fullscreen').click(requestFullScreen);
+	setTimeout(loadCalendarApi, 1000*30);
 });
 
 
@@ -75,81 +106,83 @@ function handleAuthClick(event) {
 }
 
 function loadCalendarApi() {
+	$('#calendars').empty();
+	$('.loading-indicator').show();
 	gapi.client.load('calendar', 'v3', listUpcomingEvents);
 }
 function listUpcomingEvents() {
-	
-	calendars = {
-		'Vector': '3drobotics.com_2d3539313539363532333632@resource.calendar.google.com',
-		'Over': '3drobotics.com_2d3139313635373038363537@resource.calendar.google.com',
-		'Roger': '3drobotics.com_2d3830313535373233323434@resource.calendar.google.com',
-		
-		'Fly': '3drobotics.com_3231393733333739373530@resource.calendar.google.com',
-		'Cygnus': '3drobotics.com_39333539363633332d353237@resource.calendar.google.com',
-		
-	};
 	n_calendars=0;
-	for(j in calendars) {
+	var area =  $('.area').val();
+	for(j in calendars[area]) {
 		n_calendars++;
+		
 	}
-	for(j in calendars) {
+	var batch = gapi.client.newBatch();
+	for(j in calendars[area]) {
 		var room = j;
-		var request = gapi.client.calendar.events.list({
-			'calendarId':calendars[j],
+		
+		request = gapi.client.calendar.events.list({
+			'calendarId':calendars[area][j],
 			'timeMin': (new Date()).toISOString(),
 			'showDeleted': false,
 			'singleEvents': true,
 			'maxResults': 10,
-			'orderBy': 'startTime'
+			'orderBy': 'startTime',
+			'room': j
 		});
-
-		request.execute(function(resp) {
-			//console.log(resp);
-			var calendar = $('<div id="'+resp.etag+'" class="calendar">');
-			$('#calendars').append(calendar);
-			
-			var events = resp.items;
-			//appendPre(resp['summary']+' -- Upcoming events:');
-			var appointments = [];
-			if (events.length > 0) {
-				for (i = 0; i < events.length; i++) {
-					var event = events[i];
-					var when = event.start.dateTime;
-					if (!when) {
-						when = event.start.date;
-					}
-					appointments.push({
-						id: event.id,
-						title:event.summary,
-						start: event.start.dateTime || event.start.date, // try timed. will fall back to all-day
-						end: event.end.dateTime || event.end.date, // same
-						//url: url,
-						location: event.location,
-						description: event.description
-					});
-					//appendPre(event.summary + ' (' + when + ')')
-				}
-				calendar.fullCalendar({
-					defaultView:'agendaDay',
-					events: appointments,
-					businessHours:true,
-					weekends: false,
-					header: false
-					
-				});
-				calendar.find('.fc-day-header').text(resp.summary);
-			
-				calendar.css({
-					'width':(100/n_calendars)+'%',
-					'display':'inline-block'	
-				});
-				calendar.fullCalendar('render');
-				//calendar.fullCalendar('today');
-			} else {
-				//appendPre('No upcoming events found for '+resp['summary']+'.');
-			}
-			
-			$('.loading-indicator').hide();
-		});
+		batch.add(request);
+		
 	}
+
+	batch.then(function(resp) {
+		
+		for(j in resp.result) {
+			
+			var calendar = $('<div class="calendar">');
+			$('#calendars').append(calendar);
+		
+			console.log(resp);
+			var result = resp['result'][j]['result'];
+			var events = result.items;
+			var appointments = [];
+		
+			for (i = 0; i < events.length; i++) {
+				var event = events[i];
+				var when = event.start.dateTime;
+				if (!when) {
+					when = event.start.date;
+				}
+				appointments.push({
+					id: event.id,
+					title:event.summary,
+					start: event.start.dateTime || event.start.date, // try timed. will fall back to all-day
+					end: event.end.dateTime || event.end.date, // same
+					//url: url,
+					location: event.location,
+					description: event.description
+				});
+			}
+			calendar.fullCalendar({
+				defaultView:'agendaDay',
+				events: appointments,
+				minTime: "09:00:00",
+				maxTime: "18:00:00",
+				weekends: false,
+				header: false,
+				contentHeight: $(window).height(),
+				eventColor: '#74B800',
+				slotLabelFormat: 'h(:mm) A',
+				allDayText: 'ALL DAY'
+			
+			});
+			calendar.find('.fc-day-header').text(result.summary);
+	
+			calendar.css({
+				'width':(100/n_calendars)+'%',
+				'display':'inline-block'	
+			});
+			calendar.fullCalendar('render');
+		}
+		$('.loading-indicator').hide();
+	});
 }
