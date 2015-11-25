@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/flipclock.css">
+	<link rel="stylesheet" href="css/fullcalendar.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+	<script src="js/flipclock.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>
+    <script src="google-auth.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="loading-indicator">
+		<img src="img/ajax-loader.gif">
+	</div>
+	<nav class="navbar  navbar-inverse">
+		<form class="navbar-form navbar-input-group">
+		<a class="fullscreen btn btn-inverse"><span class="glyphicon glyphicon-fullscreen"></span></a>
+		<select selected class="form-control area inverse">	
+		</select>
+
+		</form>
+		<!--div class="clock"></div-->
+	</nav>
+	<div id="authorize-div" style="display: none">
+		<span>Authorize access to Google Calendar API</span>
+		<button id="authorize-button" onclick="handleAuthClick(event)">
+		Authorize
+		</button>
+	</div>
+    <div id="calendars"></div>
+</body>
+</html>
+

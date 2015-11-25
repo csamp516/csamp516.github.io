@@ -1,0 +1,60 @@
+body {
+	font-family: "Open Sans";
+}
+.loading-indicator {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+	position: fixed;
+	top: 48%;
+	
+}
+#calendars:-webkit-full-screen	{ width: 100% }
+#calendars:-moz-full-screen		{ width: 100% }
+#calendars:-ms-full-screen		{ width: 100% }
+#calendars:-o-full-screen		{ width: 100% }
+#calendars:full-screen			{ width: 100% }
+
+html, body, #calendars, .calendar, .fc-view-container {
+  height: 100% !important;
+  display: table;
+}
+
+.fc-bg, .fc-time-grid-container{
+	height: 100%;
+}
+.fc-slats table {
+	height: 100%;
+}
+.fc-slats, .fc-time-grid {
+	display: table;
+	height: 100%;
+}
+.clock {
+	zoom: 0.5;
+	-moz-transform: scale(0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.flip-clock-wrapper {
+	position: relative !important;
+}
+.fc-widget-header {
+	font-size: 160%;
+	font-weight: 100;
+}
+html, body, .fc-unthemed .fc-divider, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+	background: black;
+	color: white;
+	border-color: #333;
+}
+ .fc-unthemed .fc-today {
+	background: #111; 
+}
+.fc-axis.fc-time.fc-widget-content, .fc-axis.fc-widget-content{
+	color: #ddd;
+	background: #111;
+	
+}
