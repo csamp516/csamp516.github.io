@@ -41,7 +41,7 @@ function requestFullScreen() {
 		RunPrefixMethod(document, "CancelFullScreen");
 	}
 	else {
-		RunPrefixMethod(document.getElementById('calendars'), "RequestFullScreen");
+		RunPrefixMethod(document.getElementById('fullscreen-area'), "RequestFullScreen");
 	}
 	$(window).trigger('resize');
 }
@@ -50,7 +50,7 @@ $(function() {
 	$('.loading-indicator').show();
 	
 	$('.clock').FlipClock({
-		//clockFace: 'TwelveHourClock'
+		clockFace: 'TwelveHourClock'
 	});
 	
 	calendars = {
@@ -78,7 +78,7 @@ $(function() {
 	}
 	$('.area').change(loadCalendarApi);
 	$('.fullscreen').click(requestFullScreen);
-	setTimeout(loadCalendarApi, 1000*30);
+	setTimeout(loadCalendarApi, 1000*10);
 });
 
 
@@ -135,7 +135,8 @@ function listUpcomingEvents() {
 	}
 
 	batch.then(function(resp) {
-		
+		var height = $('#calendars').height();
+		console.log(height);
 		for(j in resp.result) {
 			
 			var calendar = $('<div class="calendar">');
@@ -169,13 +170,14 @@ function listUpcomingEvents() {
 				maxTime: "18:00:00",
 				weekends: false,
 				header: false,
-				contentHeight: $(window).height(),
+				contentHeight: height,
 				eventColor: '#74B800',
 				slotLabelFormat: 'h(:mm) A',
 				allDayText: 'ALL DAY'
 			
 			});
-			calendar.find('.fc-day-header').text(result.summary);
+			
+			calendar.find('.fc-day-header').text(result.summary.replace("[BK] ", ""));
 	
 			calendar.css({
 				'width':(100/n_calendars)+'%',
