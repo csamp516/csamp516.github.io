@@ -65,3 +65,6 @@ html, body, .fc-unthemed .fc-divider, .fc-unthemed .fc-popover, .fc-unthemed .fc
 body {
 	width: 100%;
 }
+#authorize-button {
+	color: black;
+}
