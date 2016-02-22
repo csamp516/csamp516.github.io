@@ -63,6 +63,7 @@ $(function() {
 			'Over': '3drobotics.com_2d3139313635373038363537@resource.calendar.google.com',
 			'Roger': '3drobotics.com_2d3830313535373233323434@resource.calendar.google.com',
 			'Cygnus': '3drobotics.com_39333539363633332d353237@resource.calendar.google.com',
+			'Polaris': '3drobotics.com_393938333339382d323433@resource.calendar.google.com'
 			
 		},
 		"South East": {
@@ -177,7 +178,7 @@ function listUpcomingEvents() {
 			
 			});
 			
-			calendar.find('.fc-day-header').text(result.summary.replace("[BK] ", ""));
+			calendar.find('.fc-day-header').text(result.summary.replace("[BK] ", "").replace(" :: 5S",""));
 	
 			calendar.css({
 				'width':(100/n_calendars)+'%',
@@ -186,5 +187,6 @@ function listUpcomingEvents() {
 			calendar.fullCalendar('render');
 		}
 		$('.loading-indicator').hide();
+		$(window).trigger('resize');
 	});
 }
