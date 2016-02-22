@@ -178,7 +178,7 @@ function listUpcomingEvents() {
 			
 			});
 			
-			calendar.find('.fc-day-header').text(result.summary.replace("[BK] ", "").replace(" :: 5S",""));
+			calendar.find('.fc-day-header').text(result.summary.replace("[BK] ", "").replace(" :: 5S","").replace("Arco", "Acro"));
 	
 			calendar.css({
 				'width':(100/n_calendars)+'%',
