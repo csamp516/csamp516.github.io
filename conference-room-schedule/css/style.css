@@ -1,5 +1,5 @@
 body, .clock {
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
 }
 .loading-indicator {
 	width: 100%;
