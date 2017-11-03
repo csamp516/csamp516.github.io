@@ -1,0 +1,31 @@
+
+<svg width="120px" height="32px" viewBox="0 0 120 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0.972576531%" id="linearGradient-1">
+            <stop stop-color="#3C436C" offset="0%"></stop>
+            <stop stop-color="#171B37" offset="21.3445826%"></stop>
+            <stop stop-color="#000000" offset="98.9696269%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="120" height="32"></rect>
+        <filter x="-7.5%" y="-28.1%" width="115.0%" height="156.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="7" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.831372549   0 0 0 0 0.658823529  0 0 0 0.24 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-175.000000, -15.000000)">
+            <g id="Group" transform="translate(175.000000, 15.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#4A4A4A" fill-rule="evenodd" style="mix-blend-mode: hard-light;" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <rect stroke="url(#linearGradient-1)" stroke-width="2" x="1" y="1" width="118" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
