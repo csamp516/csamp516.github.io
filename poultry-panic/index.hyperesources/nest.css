@@ -1,0 +1,23 @@
+.outerframe, .gradient {
+  background: linear-gradient(-180deg, #0E1331 0%, #464A61 14%, #1C1C1C 100%) !important;
+ font-size 16px:
+}
+
+.background {
+ background-color: #499D4C !important;
+}
+
+.title {
+ text-transform: uppercase;
+ margin: 0;
+ background: transparent !important;
+ background:  linear-gradient(-2deg, rgba(255,100,31,0.79) 0%, rgba(255,0,222,0.79) 100%) !important;
+ background-clip: text !important;
+ text-fill-color: transparent !important;
+ background:  -webkit-linear-gradient(-2deg, rgba(255,100,31,1) 0%, rgba(255,0,222,1) 100%) !important;
+ -webkit-background-clip: text !important;
+ -webkit-text-fill-color: transparent !important;
+ -webkit-text-fill-color: transparent !important;
+ font-family: "SNNeoNoire-Regular" !important;
+ color: #4E5973;
+}
