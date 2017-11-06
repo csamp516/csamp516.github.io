@@ -1,3 +1,6 @@
+body {
+    background: black;
+}
 .outerframe, .gradient {
   background: linear-gradient(-180deg, #0E1331 0%, #464A61 14%, #1C1C1C 100%) !important;
  font-size 16px:
