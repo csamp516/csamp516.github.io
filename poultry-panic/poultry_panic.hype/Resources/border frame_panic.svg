@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="792px" viewBox="0 0 680 792" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>border frame_panic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-1.11022302e-14%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#AD14BD" offset="0%"></stop>
+            <stop stop-color="#451285" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="border-frame_panic" fill="url(#linearGradient-1)">
+            <path d="M18,0 L662,0 C671.941125,-1.82615513e-15 680,8.0588745 680,18 L680,774 C680,783.941125 671.941125,792 662,792 L18,792 L18,792 C8.0588745,792 6.30238887e-14,783.941125 0,774 L0,18 L0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82615513e-15 18,0 L18,0 Z M20,4 L20,4 C11.163444,4 4,11.163444 4,20 L4,20 L4,772 C4,780.836556 11.163444,788 20,788 L660,788 C668.836556,788 676,780.836556 676,772 L676,20 C676,11.163444 668.836556,4 660,4 L660,4 L20,4 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
