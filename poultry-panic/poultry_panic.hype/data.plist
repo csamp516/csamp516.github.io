@@ -207,7 +207,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2017-11-07T23:16:47Z</date>
+	<date>2017-11-23T17:36:55Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -215,7 +215,7 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1680, 924}}</string>
+			<string>{{0, 0}, {1920, 1074}}</string>
 			<key>identifier</key>
 			<string>container 33</string>
 			<key>isCustomizableViewContainer</key>
@@ -228,7 +228,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1409, 924}}</string>
+					<string>{{0, 0}, {1649, 1074}}</string>
 					<key>identifier</key>
 					<string>container 53</string>
 					<key>isCustomizableViewContainer</key>
@@ -241,7 +241,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {1138, 924}}</string>
+							<string>{{0, 0}, {1378, 1074}}</string>
 							<key>identifier</key>
 							<string>container 42</string>
 							<key>isCustomizableViewContainer</key>
@@ -254,7 +254,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 924}}</string>
+									<string>{{0, 0}, {270, 1074}}</string>
 									<key>identifier</key>
 									<string>container 32</string>
 									<key>isCustomizableViewContainer</key>
@@ -267,7 +267,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {270, 924}}</string>
+											<string>{{0, 0}, {270, 1074}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -277,7 +277,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {867, 924}}</string>
+									<string>{{271, 0}, {1107, 1074}}</string>
 									<key>identifier</key>
 									<string>container 33</string>
 									<key>isCustomizableViewContainer</key>
@@ -290,7 +290,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {867, 277.84375}}</string>
+											<string>{{271, 0}, {1107, 458}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -303,7 +303,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {867, 278}}</string>
+													<string>{{271, 0}, {1107, 458}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -313,7 +313,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 278.84375}, {867, 645.15625}}</string>
+											<string>{{271, 459}, {1107, 615}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -326,7 +326,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 279}, {867, 645}}</string>
+													<string>{{271, 459}, {1107, 615}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -340,7 +340,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{1139, 0}, {270, 924}}</string>
+							<string>{{1379, 0}, {270, 1074}}</string>
 							<key>identifier</key>
 							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
@@ -353,7 +353,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{1139, 0}, {270, 924}}</string>
+									<string>{{1379, 0}, {270, 1074}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -365,7 +365,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1410, 0}, {270, 924}}</string>
+					<string>{{1650, 0}, {270, 1074}}</string>
 					<key>identifier</key>
 					<string>container 52</string>
 					<key>isCustomizableViewContainer</key>
@@ -378,7 +378,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1410, 0}, {270, 924}}</string>
+							<string>{{1650, 0}, {270, 1074}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -391,7 +391,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>100</real>
 		<key>mainWindowFrame</key>
-		<string>0 59 1680 968 0 0 1680 1027 </string>
+		<string>0 59 1920 1118 0 0 1920 1177 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -438,7 +438,7 @@
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>5</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -3386,7 +3386,7 @@
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>566</string>
+			<string>61</string>
 			<key>name</key>
 			<string>Field</string>
 			<key>oid</key>
@@ -3413,7 +3413,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1173, 1181}</string>
+					<string>{1476, 1181}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3438,7 +3438,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>53</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 233}</string>
+					<string>{0, 87.5}</string>
 					<key>userGuides</key>
 					<array/>
 					<key>zoomFactor</key>
@@ -3464,7 +3464,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1388, 1257}</string>
+					<string>{1408, 1257}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3489,7 +3489,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>524</string>
 					<key>scrollViewOffset</key>
-					<string>{468, 210}</string>
+					<string>{282, 212}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -3942,7 +3942,7 @@ function startPanicMode(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F6FC19B2-572C-4961-A515-5664417E4FD8-93950-0000B19A0EE6C5C2</string>
+			<string>84D16742-66F6-4283-8577-F93AE708AB4A-53987-00007F17CB07455F</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -4192,9 +4192,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#4E5973</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4286,9 +4286,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>100</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4298,9 +4298,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>100</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4334,9 +4334,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#4E5973</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>236</key>
@@ -4355,9 +4355,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFFFF</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4487,9 +4487,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFFFF</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>240</key>
@@ -4739,9 +4739,9 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>128px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4751,9 +4751,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ConstrainProportions</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>bomb</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4763,15 +4763,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
+							<string>ConstrainProportions</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>Opacity</string>
 							<key>objectValue</key>
-							<string>Image</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4781,9 +4781,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>bomb</string>
+							<string>Image</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4901,18 +4901,18 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>128px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>322</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1292px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5036,9 +5036,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1292px</string>
 						</dict>
 					</array>
 					<key>323</key>
@@ -5262,27 +5262,27 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5410,24 +5410,24 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>325</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5527,9 +5527,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextAlign</string>
+							<string>BorderColorRight</string>
 							<key>objectValue</key>
-							<string>left</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5539,9 +5539,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorRight</string>
+							<string>TextAlign</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>left</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5587,24 +5587,24 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 					</array>
 					<key>333</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>958px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5614,21 +5614,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ConstrainProportions</string>
 							<key>objectValue</key>
-							<string>panic-button</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Display</string>
 							<key>objectValue</key>
 							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5645,6 +5639,12 @@ function startPanicMode(hypeDocument, element, event) {
 									</dict>
 								</array>
 							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Image</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5676,9 +5676,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Image</string>
+							<string>panic-button</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5774,36 +5774,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>958px</string>
 						</dict>
 					</array>
 					<key>344</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5933,15 +5933,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>345</key>
@@ -6157,21 +6157,21 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6323,36 +6323,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>347</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#E8EBED</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6482,24 +6482,24 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>349</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>120px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6509,9 +6509,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ConstrainProportions</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>highscore-panel</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6521,9 +6521,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ConstrainProportions</string>
 							<key>objectValue</key>
-							<string>highscore-panel</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6617,9 +6617,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>120px</string>
 						</dict>
 					</array>
 					<key>350</key>
@@ -6632,9 +6632,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D2D3D2</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6728,15 +6728,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>39px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>115</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>39px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6758,9 +6758,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#D2D3D2</string>
 						</dict>
 					</array>
 					<key>351</key>
@@ -6779,9 +6779,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D2D3D2</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6911,9 +6911,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#D2D3D2</string>
 						</dict>
 					</array>
 					<key>392</key>
@@ -6926,9 +6926,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(0, 0, 0, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7082,9 +7082,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(0, 0, 0, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>397</key>
@@ -7097,9 +7097,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(255, 255, 255, 0.000)</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7251,9 +7251,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(255, 255, 255, 0.000)</string>
 						</dict>
 					</array>
 					<key>424</key>
@@ -8562,21 +8562,21 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8670,15 +8670,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>768px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>3</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>768px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8706,9 +8706,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>484</key>
@@ -8944,9 +8944,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>Group</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9022,15 +9022,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>panic-intro4</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>panic-intro4</string>
 						</dict>
 					</array>
 					<key>517</key>
@@ -9328,15 +9328,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>VideoResourceGroupOid</string>
 							<key>objectValue</key>
-							<string>360px</string>
+							<string>494</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>Controls</string>
 							<key>objectValue</key>
-							<string>480px</string>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9364,9 +9364,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>Autoplay</string>
 							<key>objectValue</key>
-							<string>Video</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9376,15 +9376,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Parent</string>
+							<string>Muted</string>
 							<key>objectValue</key>
-							<string>516</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Autoplay</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>516</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9406,9 +9406,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Muted</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>Video</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9502,15 +9502,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>VideoResourceGroupOid</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>494</string>
+							<string>360px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Controls</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>480px</string>
 						</dict>
 					</array>
 					<key>519</key>
@@ -9754,9 +9754,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#00FF18</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9904,9 +9904,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#00FF18</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>521</key>
@@ -10021,15 +10021,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
-							<key>objectValue</key>
-							<string>panic-intro2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DomID</string>
+							<key>objectValue</key>
+							<string>panic-intro2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10322,15 +10322,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
-							<key>objectValue</key>
-							<string>panic-intro1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DomID</string>
+							<key>objectValue</key>
+							<string>panic-intro1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10515,27 +10515,27 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#4EBFC9</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10697,42 +10697,42 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#4EBFC9</string>
-						</dict>
-					</array>
-					<key>56</key>
-					<array>
-						<dict>
-							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#499D4C</string>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>56</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10862,15 +10862,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#499D4C</string>
 						</dict>
 					</array>
 					<key>83</key>
@@ -11284,7 +11284,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>511F00DB-4F94-44B5-B21B-852E61D05634-93950-0000B199CA7AF9E8</string>
+									<string>7C409403-2CEB-433B-8642-04199276DAC4-53987-00007F1662D64D3C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -11371,7 +11371,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>511F00DB-4F94-44B5-B21B-852E61D05634-93950-0000B199CA7AF9E8</string>
+									<string>7C409403-2CEB-433B-8642-04199276DAC4-53987-00007F1662D64D3C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -11458,7 +11458,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>511F00DB-4F94-44B5-B21B-852E61D05634-93950-0000B199CA7AF9E8</string>
+									<string>7C409403-2CEB-433B-8642-04199276DAC4-53987-00007F1662D64D3C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -11643,7 +11643,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>359F3773-1CFB-405A-A4AC-7B53D305D1BA-93950-0000B199CA7D9808</string>
+									<string>BF3A7656-9C9E-452B-BB71-C313B2E9A877-53987-00007F1662DB57F0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -11720,7 +11720,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>359F3773-1CFB-405A-A4AC-7B53D305D1BA-93950-0000B199CA7D9808</string>
+									<string>BF3A7656-9C9E-452B-BB71-C313B2E9A877-53987-00007F1662DB57F0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -11797,7 +11797,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>359F3773-1CFB-405A-A4AC-7B53D305D1BA-93950-0000B199CA7D9808</string>
+									<string>BF3A7656-9C9E-452B-BB71-C313B2E9A877-53987-00007F1662DB57F0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -11951,7 +11951,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A5D47E08-EF8D-4865-B50C-8071B9B48A9F-93950-0000B199CA7F3CB3</string>
+									<string>4751EEEE-57E2-4D0A-9EEF-52F3CA8CC03D-53987-00007F1662DE68F3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -12011,7 +12011,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A5D47E08-EF8D-4865-B50C-8071B9B48A9F-93950-0000B199CA7F3CB3</string>
+									<string>4751EEEE-57E2-4D0A-9EEF-52F3CA8CC03D-53987-00007F1662DE68F3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -12071,7 +12071,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A5D47E08-EF8D-4865-B50C-8071B9B48A9F-93950-0000B199CA7F3CB3</string>
+									<string>4751EEEE-57E2-4D0A-9EEF-52F3CA8CC03D-53987-00007F1662DE68F3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>246</string>
@@ -12131,7 +12131,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>227F547C-65BA-48DD-AC7F-7931767119A1-93950-0000B199CA801536</string>
+									<string>A357F0D9-FCE5-4673-8852-0DE0744E9914-53987-00007F1662E00FF8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -12191,7 +12191,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>227F547C-65BA-48DD-AC7F-7931767119A1-93950-0000B199CA801536</string>
+									<string>A357F0D9-FCE5-4673-8852-0DE0744E9914-53987-00007F1662E00FF8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -12251,7 +12251,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>227F547C-65BA-48DD-AC7F-7931767119A1-93950-0000B199CA801536</string>
+									<string>A357F0D9-FCE5-4673-8852-0DE0744E9914-53987-00007F1662E00FF8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>240</string>
@@ -13001,7 +13001,7 @@ function startPanicMode(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F6FC19B2-572C-4961-A515-5664417E4FD8-93950-0000B19A0EE6C5C2</string>
+			<string>84D16742-66F6-4283-8577-F93AE708AB4A-53987-00007F17CB07455F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>84</string>
@@ -13020,9 +13020,9 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13032,9 +13032,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ConstrainProportions</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>chicken-gif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13044,9 +13044,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ConstrainProportions</string>
 							<key>objectValue</key>
-							<string>chicken-gif</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13154,9 +13154,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 					</array>
 				</dict>
@@ -13263,7 +13263,7 @@ function startPanicMode(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F6FC19B2-572C-4961-A515-5664417E4FD8-93950-0000B19A0EE6C5C2</string>
+			<string>84D16742-66F6-4283-8577-F93AE708AB4A-53987-00007F17CB07455F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>539</string>
@@ -13648,9 +13648,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(0, 0, 0, 0.000)</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13798,9 +13798,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(0, 0, 0, 0.000)</string>
 						</dict>
 					</array>
 					<key>528</key>
@@ -13883,15 +13883,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>background</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TransformOriginYOffset</string>
 							<key>objectValue</key>
 							<string>-77%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>background</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13931,15 +13931,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TransformOriginXOffset</string>
 							<key>objectValue</key>
 							<string>0%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -14683,27 +14683,27 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#E8EBED</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -14831,24 +14831,24 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>533</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>128px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15002,9 +15002,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>128px</string>
 						</dict>
 					</array>
 					<key>534</key>
@@ -15222,9 +15222,9 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15318,9 +15318,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorRight</string>
+							<string>TextAlign</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>left</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15330,9 +15330,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextAlign</string>
+							<string>BorderColorRight</string>
 							<key>objectValue</key>
-							<string>left</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15384,36 +15384,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>536</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#27282D</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15537,15 +15537,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#27282D</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>537</key>
@@ -15558,9 +15558,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#D2D3D2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15642,12 +15642,6 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>116</string>
@@ -15657,6 +15651,12 @@ function startPanicMode(hypeDocument, element, event) {
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>39px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -15678,9 +15678,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D2D3D2</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>538</key>
@@ -15994,15 +15994,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>border frame</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TransformOriginYOffset</string>
 							<key>objectValue</key>
 							<string>-85%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>border frame</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16042,15 +16042,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TransformOriginXOffset</string>
 							<key>objectValue</key>
 							<string>50%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16151,9 +16151,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#4E5973</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16293,9 +16293,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#4E5973</string>
 						</dict>
 					</array>
 					<key>541</key>
@@ -16314,9 +16314,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#00FF18</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16458,36 +16458,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#00FF18</string>
 						</dict>
 					</array>
 					<key>542</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16569,15 +16569,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>BackgroundGradientStartColor</string>
 							<key>objectValue</key>
 							<string></string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16623,15 +16623,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string></string>
 						</dict>
 					</array>
 					<key>543</key>
@@ -16650,9 +16650,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#D2D3D2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16776,36 +16776,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D2D3D2</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>544</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#4EBFC9</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -16967,24 +16967,24 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#4EBFC9</string>
 						</dict>
 					</array>
 					<key>545</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -17136,15 +17136,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 					</array>
 					<key>546</key>
@@ -17163,9 +17163,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFFFF</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -17289,9 +17289,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFFFF</string>
 						</dict>
 					</array>
 					<key>547</key>
@@ -17593,9 +17593,9 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>958px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -17759,19 +17759,13 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>958px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>549</key>
 					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontWeight</string>
-							<key>objectValue</key>
-							<string>normal</string>
-						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>FontFamily</string>
@@ -17780,9 +17774,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>FontWeight</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>normal</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -17948,15 +17948,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1px</string>
 						</dict>
 					</array>
 					<key>550</key>
@@ -17969,9 +17969,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(255, 255, 255, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -18117,36 +18117,36 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(255, 255, 255, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>551</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>#499D4C</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -18276,15 +18276,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#499D4C</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>552</key>
@@ -18812,27 +18812,27 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -18956,15 +18956,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>556</key>
@@ -19873,9 +19873,9 @@ function startPanicMode(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1292px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -19993,9 +19993,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1292px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>561</key>
@@ -20008,15 +20008,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>VideoResourceGroupOid</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>494</string>
+							<string>360px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Controls</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>480px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -20044,9 +20044,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Autoplay</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>Video</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -20056,15 +20056,15 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Muted</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
 							<string>552</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Autoplay</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -20086,9 +20086,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>Muted</string>
 							<key>objectValue</key>
-							<string>Video</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -20176,30 +20176,30 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>VideoResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>494</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>giphy (1)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>Controls</string>
 							<key>objectValue</key>
-							<string>360px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>480px</string>
+							<string>0</string>
 						</dict>
 					</array>
 					<key>567</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -20357,9 +20357,9 @@ function startPanicMode(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -21118,7 +21118,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95F756FA-0DCD-4279-B24E-95C3E0D50B19-93950-0000B1A341A8AF17</string>
+									<string>7D6EFF5D-649C-491C-ABA9-7FC3567BE488-53987-00007F16672DBB93</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
@@ -21205,7 +21205,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95F756FA-0DCD-4279-B24E-95C3E0D50B19-93950-0000B1A341A8AF17</string>
+									<string>7D6EFF5D-649C-491C-ABA9-7FC3567BE488-53987-00007F16672DBB93</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
@@ -21292,7 +21292,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95F756FA-0DCD-4279-B24E-95C3E0D50B19-93950-0000B1A341A8AF17</string>
+									<string>7D6EFF5D-649C-491C-ABA9-7FC3567BE488-53987-00007F16672DBB93</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
@@ -21477,7 +21477,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>28E3A011-3014-4E0F-B967-E50656267F2F-93950-0000B1A341ABC9C6</string>
+									<string>9ED3EC8D-49C5-4C6C-8D1B-032769327CAD-53987-00007F166731CBCF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21554,7 +21554,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>28E3A011-3014-4E0F-B967-E50656267F2F-93950-0000B1A341ABC9C6</string>
+									<string>9ED3EC8D-49C5-4C6C-8D1B-032769327CAD-53987-00007F166731CBCF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21631,7 +21631,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>28E3A011-3014-4E0F-B967-E50656267F2F-93950-0000B1A341ABC9C6</string>
+									<string>9ED3EC8D-49C5-4C6C-8D1B-032769327CAD-53987-00007F166731CBCF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21785,7 +21785,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95025634-AF1A-46C1-B487-A53FE28EBA5D-93950-0000B1A341ADE6AC</string>
+									<string>611553B0-BFC7-4B6C-BC8C-4D1D3C489A7A-53987-00007F166734DD9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21845,7 +21845,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95025634-AF1A-46C1-B487-A53FE28EBA5D-93950-0000B1A341ADE6AC</string>
+									<string>611553B0-BFC7-4B6C-BC8C-4D1D3C489A7A-53987-00007F166734DD9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21905,7 +21905,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>95025634-AF1A-46C1-B487-A53FE28EBA5D-93950-0000B1A341ADE6AC</string>
+									<string>611553B0-BFC7-4B6C-BC8C-4D1D3C489A7A-53987-00007F166734DD9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>533</string>
@@ -21965,7 +21965,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1F189BA6-39A0-4AE7-90E1-07A295450A59-93950-0000B1A341AF3705</string>
+									<string>409C3C57-CD38-423A-A25E-8BE17CE571AF-53987-00007F166736D216</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
@@ -22025,7 +22025,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1F189BA6-39A0-4AE7-90E1-07A295450A59-93950-0000B1A341AF3705</string>
+									<string>409C3C57-CD38-423A-A25E-8BE17CE571AF-53987-00007F166736D216</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
@@ -22085,7 +22085,7 @@ function startPanicMode(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1F189BA6-39A0-4AE7-90E1-07A295450A59-93950-0000B1A341AF3705</string>
+									<string>409C3C57-CD38-423A-A25E-8BE17CE571AF-53987-00007F166736D216</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>538</string>
