@@ -27,8 +27,10 @@
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/modernizr.custom.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/tilt.jquery.min.js"></script>
   <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,7 +38,7 @@
 
 </head>
 <body>
-
+  <div class="background"></div>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container home">
@@ -59,6 +61,12 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
     feather.replace()
+    $(function(){
+      $('.container').tilt({
+        maxTilt: 10,
+        disableAxis:  'y',
+      });
+    })
   </script>
 
 <!-- End Document
