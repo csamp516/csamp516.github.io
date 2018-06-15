@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="32px" viewBox="0 0 88 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,8 C0,3.58181818 3.58254545,0 8,0 C12.4174545,0 16,3.58181818 16,8 C16,12.4181818 12.4174545,16 8,16 C3.58254545,16 0,12.4181818 0,8 Z M6,12 L12,8.01297444 L6,4 L6,12 Z" id="path-1"></path>
+    </defs>
+    <g id="M01-Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M01-/-10-(State-1)" transform="translate(-271.000000, -104.000000)">
+            <g id="Organism-/-Header-/-Mobile">
+                <g id="Audio" transform="translate(271.000000, 104.000000)">
+                    <g id="Group">
+                        <rect id="Rectangle" fill="#CE349F" x="0" y="0" width="88" height="32" rx="16"></rect>
+                        <text id="Listen" font-family="Gotham-Medium, Gotham" font-size="10" font-weight="400" fill="#FFFFFF">
+                            <tspan x="16" y="19">Listen</tspan>
+                        </text>
+                        <g id="Particles-/-Icons-/-Play-Button" transform="translate(56.000000, 8.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Particles-/-Colors-/-White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
