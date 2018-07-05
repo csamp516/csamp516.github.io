@@ -55,7 +55,7 @@ h1 {
 /* Larger than mobile */
 @media (min-width: 400px) {
   .home {
-    max-width: 420px;
+    max-width: 460px;
   }
 }
 
