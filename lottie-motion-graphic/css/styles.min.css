@@ -1,1 +1,1 @@
-h1{color:#fff}body{background:#000}body,canvas{padding:0;margin:0}canvas{width:100vw;height:100vh}
+.play,h1{color:#fff}.play{font-size:140%;font-family:Avenir;text-align:center;margin-top:20%;padding:15px 0;cursor:pointer;transition:1s;position:absolute;width:100%;background:#000}.play:hover{font-size:150%;color:#add8e6}body{background:#000}body,canvas{padding:0;margin:0}canvas{width:100vw;height:100vh}
