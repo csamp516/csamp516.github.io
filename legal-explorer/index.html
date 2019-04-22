@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal Explorer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <div class="legal-explorer-container">
+    <h1>Legal Explorer</h1>
+    <form>
+      <div class="button-group">
+        <button class="reset"><i class="fas fa-times"></i>Reset</button>
+      </div>
+      <div><label>Search</label></div>
+      <input class="search" type="text" placeholder="Search keywords..."/>
+      <div class="toolbar">
+
+        <label>Audience</label>
+        <div class="button-group">
+          <button class="filter" data-category="market" data-filter="he">Higher Education</button>
+          <button class="filter" data-category="market" data-filter="cc">Conduct + Culture</button>
+        </div>
+        <label>Topic</label>
+        <div class="button-group">
+          <button class="filter" data-category="topic" data-filter="hd">Harrassment & Discrimination</button>
+          <button class="filter" data-category="topic" data-filter="alc">Alcohol and Drug Laws</button>
+          <button class="filter" data-category="topic" data-filter="py">Child Abuse Prevention</button>
+        </div>
+        <label>Location</label>
+        <div class="button-group">
+          <button data-category="location" data-filter="state" class="filter">State</button>
+          <button data-category="location" data-filter="federal" class="filter">Federal</button>
+        </div>
+      </div>
+    </form>
+    <div class="results">
+      <div class="result course" data-market="he cc" data-topic="hd">
+        <h2 class="course-title"><i class="fas fa-book"></i>Harrassment & Discrimination Prevention</h2>
+        <h3>Markets</h3>
+        <span>Conduct + Culture</span> <span>Higher Education</span>
+        <h3>Keywords</h3>
+        <div class="keywords">
+          <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
+        </div>
+        <h3>Course Map</h3>
+        <ul>
+        </ul>
+        <p></p>
+      </div>
+      <div class="result course" data-market="he"  data-topic="py">
+        <h2 class="course-title"><i class="fas fa-book"></i>Protecting Youth</h2>
+        <h3>Market</h3>
+        <span>Higher Education</span>
+        <h3>Keywords</h3>
+        <div class="keywords">
+          <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
+        </div>
+        <h3>Course Map</h3>
+        <p></p>
+      </div>
+      <div class="result course" data-market="he"  data-topic="alc">
+        <h2 class="course-title"><i class="fas fa-book"></i>Alcohol EDU</h2>
+        <h3>Market</h3>
+        <span>Higher Education</span>
+        <h3>Keywords</h3>
+        <div class="keywords">
+          <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
+        </div>
+        <h3>Course Map</h3>
+        <p></p>
+      </div>
+      <div class="result law" data-location="federal" data-market="he cc" data-topic="hd">
+        <h2 class="course-title"><i class="fas fa-gavel"></i>Title IX</h2>
+        <h3>Jurisdiction</h3>
+        <span>Federal</span>
+        <h3>Topic</h3>
+        <span>Harrassment & Discrimination</span>
+        <h3>Keywords</h3>
+        <div class="keywords">
+          <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
+        </div>
+        <h3>Courses</h3>
+        <ul>
+          <li>Harassment & Discrimination Prevention</li>
+          <li>Bridges</li>
+          <li>Sexual Assault Prevention</li>
+        </ul>
+      </div>
+      <div class="result law" data-location="state" data-market="he cc" data-topic="hd">
+        <h2 class="law-title"><i class="fas fa-gavel"></i>SB-778</h2>
+        <h3>Jurisdiction</h3>
+        <span>California</span>
+        <h3>Topic</h3>
+        <span>Harrassment & Discrimination</span>
+        <h3>Keywords</h3>
+        <div class="keywords">
+          <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
+        </div>
+        <h3>Courses</h3>
+        <ul>
+          <li>Harassment & Discrimination Prevention</li>
+          <li>Bridges</li>
+          <li>Sexual Assault Prevention</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
