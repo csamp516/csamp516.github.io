@@ -12,26 +12,28 @@
   <div class="legal-explorer-container">
     <h1>Legal Explorer</h1>
     <form>
-      <div class="button-group">
+      <div class="input-group">
         <button class="reset"><i class="fas fa-times"></i>Reset</button>
       </div>
       <div><label>Search</label></div>
-      <input class="search" type="text" placeholder="Search keywords..."/>
-      <div class="toolbar">
 
+      <div class="input-group">
+        <input class="search" type="text" placeholder="Search keywords..."/>
+        <div class="toolbar">
+      </div>
         <label>Audience</label>
-        <div class="button-group">
+        <div class="input-group">
           <button class="filter" data-category="market" data-filter="he">Higher Education</button>
           <button class="filter" data-category="market" data-filter="cc">Conduct + Culture</button>
         </div>
         <label>Topic</label>
-        <div class="button-group">
+        <div class="input-group">
           <button class="filter" data-category="topic" data-filter="hd">Harrassment & Discrimination</button>
           <button class="filter" data-category="topic" data-filter="alc">Alcohol and Drug Laws</button>
           <button class="filter" data-category="topic" data-filter="py">Child Abuse Prevention</button>
         </div>
         <label>Location</label>
-        <div class="button-group">
+        <div class="input-group">
           <button data-category="location" data-filter="state" class="filter">State</button>
           <button data-category="location" data-filter="federal" class="filter">Federal</button>
         </div>
@@ -46,10 +48,10 @@
         <div class="keywords">
           <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
         </div>
-        <h3>Course Map</h3>
+
         <ul>
         </ul>
-        <p></p>
+
       </div>
       <div class="result course" data-market="he"  data-topic="py">
         <h2 class="course-title"><i class="fas fa-book"></i>Protecting Youth</h2>
@@ -59,8 +61,8 @@
         <div class="keywords">
           <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
         </div>
-        <h3>Course Map</h3>
-        <p></p>
+
+
       </div>
       <div class="result course" data-market="he"  data-topic="alc">
         <h2 class="course-title"><i class="fas fa-book"></i>Alcohol EDU</h2>
@@ -70,8 +72,8 @@
         <div class="keywords">
           <span class="keyword">bystander intervention</span><span class="keyword">sexual harrassment</span><span class="keyword">discrimination</span><span class="keyword">sexual assault</span>
         </div>
-        <h3>Course Map</h3>
-        <p></p>
+
+        
       </div>
       <div class="result law" data-location="federal" data-market="he cc" data-topic="hd">
         <h2 class="course-title"><i class="fas fa-gavel"></i>Title IX</h2>
